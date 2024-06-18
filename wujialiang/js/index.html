@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			.w{
+				border-radius: 40px 40px 40px 40px;
+				position: fixed;
+				width: 100%;
+				height: 60px;
+				background-color:#262c3a;
+			}
+			.w1{
+				border-radius: 40px 40px 40px 40px;
+				position: fixed;
+				left: 30px;
+				top: 17px;
+			}
+			.w2{
+				position: fixed;
+				left: 80px;
+			}
+			.w3{
+				border-radius: 40px 40px 40px 40px;
+				position: fixed;
+				width: 100px;
+				height: 620px;
+				top: 69px;
+				background-color: #262C3A;
+			}
+			.w4{
+				border-radius: 50px 50px 50px 50px;
+				position: fixed;
+				top: 12px;
+				left: 1200px;
+			}
+			.w5{
+				border-radius: 50px 50px 50px 50px;
+				position: fixed;
+				top: 17px;
+				left: 1250px;
+			}
+			.w6{
+				position: fixed;
+				left: 24px;
+				top: 100px;
+			}
+			.w7{
+				position: fixed;
+				left: 24px;
+				top: 200px;
+			}
+			.w8{
+				position: fixed;
+				left: 24px;
+				top: 300px;
+			}
+			.w9{
+				position: fixed;
+				left: 24px;
+				top: 400px;
+			}
+			.w10{
+				position: fixed;
+				left: 24px;
+				top: 500px;
+			}
+			.w11{
+				position: fixed;
+				left: 24px;
+				top: 600px;
+			}
+			.w12{
+				position: fixed;
+				left: 650px;
+				top: 18px;
+			}
+			.box {
+				position: relative;
+				border-radius: 50px 50px 50px 50px;
+				bottom: 75px;
+			            width: 300px;
+			            height: 20px;
+			            border: 1px solid #ffffff;
+			            margin: 100px auto;
+			        }
+			.box2{
+				width: 300px;
+				height: 400px;
+				border: 1px solid #000000;
+				margin: 100px auto;
+			}
+			.w13{
+				position:absolute;
+				left: 80px;
+			}
+			.w14{
+				position: absolute;
+				left: 1300px;
+			}
+			.w15{
+				position: absolute;
+			}
+			.w16{
+				border-radius: 40px 40px 40px 40px;
+				position: absolute;
+				top: 160px;
+				left: 150px;
+				height: 300px;
+				width: 300px;
+			}
+			.w16:hover{
+				border-radius: 40px 40px 40px 40px;
+				transition-duration: 1s;
+				transition-timing-function: ease-in-out;
+				height: 350px;
+				width: 300px;
+			}
+			.w17{
+				border-radius: 40px 40px 40px 40px;
+				position: absolute;
+				top: 160px;
+				left: 770px;
+				height: 300px;
+				width: 300px;
+			}
+			.w17:hover{
+				border-radius: 40px 40px 40px 40px;
+				transition-duration: 1s;
+				transition-timing-function: ease-in-out;
+				height: 350px;
+				width: 300px;
+			}
+			.w19{
+				position: absolute;
+				right: 1100px;
+				top: 450px;
+			}
+			.w20{
+				position: absolute;
+				right: 780px;
+				top: 450px;
+			}
+			.w21{
+				position: absolute;
+				right: 470px;
+				top: 450px;
+			}
+			.w22{
+				position: absolute;
+				right: 140px;
+				top: 450px;
+			}
+			.w23{
+				position:absolute;
+				left: 80px;
+			}
+			.w24{
+				position: absolute;
+				border-radius: 40px 40px 40px 40px;
+				position: absolute;
+				top: 160px;
+				left: 460px;
+				height: 300px;
+				width: 300px;
+			}
+			.w24:hover{
+				border-radius: 40px 40px 40px 40px;
+				transition-duration: 1s;
+				transition-timing-function: ease-in-out;
+				height: 350px;
+				width: 300px;
+			}
+			.w25{
+				position: absolute;
+				border-radius: 40px 40px 40px 40px;
+				position: absolute;
+				top: 160px;
+				left: 1080px;
+				height: 300px;
+				width: 300px;
+			}
+			.w25:hover{
+				border-radius: 40px 40px 40px 40px;
+				transition-duration: 1s;
+				transition-timing-function: ease-in-out;
+				height: 350px;
+				width: 300px;
+			}
+			.w26{
+				border-radius: 40px 40px 40px 40px;
+				position: absolute;
+				top: 610px;
+				left: 150px;
+				height: 300px;
+				width: 300px;
+			}
+			.w26:hover{
+				border-radius: 40px 40px 40px 40px;
+				transition-duration: 1s;
+				transition-timing-function: ease-in-out;
+				height: 350px;
+				width: 300px;
+			}
+			.w27{
+				position: absolute;
+				border-radius: 40px 40px 40px 40px;
+				position: absolute;
+				top: 610px;
+				left: 460px;
+				height: 300px;
+				width: 300px;
+			}
+			.w27:hover{
+				border-radius: 40px 40px 40px 40px;
+				transition-duration: 1s;
+				transition-timing-function: ease-in-out;
+				height: 350px;
+				width: 300px;
+			}
+			.w28{
+				position: absolute;
+				border-radius: 40px 40px 40px 40px;
+				position: absolute;
+				top: 610px;
+				left: 1080px;
+				height: 300px;
+				width: 300px;
+			}
+			.w28:hover{
+				border-radius: 40px 40px 40px 40px;
+				transition-duration: 1s;
+				transition-timing-function: ease-in-out;
+				height: 350px;
+				width: 300px;
+			}
+			.w29{
+				border-radius: 40px 40px 40px 40px;
+				position: absolute;
+				top: 610px;
+				left: 770px;
+				height: 300px;
+				width: 300px;
+			}
+			.w29:hover{
+				border-radius: 40px 40px 40px 40px;
+				transition-duration: 1s;
+				transition-timing-function: ease-in-out;
+				height: 350px;
+				width: 300px;
+			}
+			.w30{
+				position: absolute;
+				right: 1100px;
+				top: 900px;
+			}
+			.w31{
+				position: absolute;
+				right: 770px;
+				top: 900px;
+			}
+			.w32{
+				position: absolute;
+				right: 460px;
+				top: 900px;
+			}
+			.w33{
+				position: absolute;
+				right: 135px;
+				top: 900px;
+			}
+			.w34{
+				border-radius: 50px 50px 50px 50px;
+				position: fixed;
+				top: 690px;
+				width: 100%;
+				height: 90px;
+				background-color:#ebfeff;
+			}
+			.w35{
+				position: absolute;
+				border-radius: 50px 50px 50px 50px;
+				top: 90px;
+				left: 130px;
+				width: 500px;
+				height: 50px;
+				background-color: burlywood;
+			}
+			.w36{
+				position: absolute;
+				border-radius: 50px 50px 50px 50px;
+				top: 540px;
+				left: 130px;
+				width: 500px;
+				height: 50px;
+				background-color:#40ff86;
+			}
+			.w37{
+				border-radius: 20px 20px 20px 20px;
+				position: absolute;
+				left: 160px;
+				top: 3px;
+			}
+			.w38{
+				border-radius: 20px 20px 20px 20px;
+				position: absolute;
+				left: 1300px;
+				top: 18px;
+			}
+			.w40{
+				border-radius: 20px 20px 20px 20px;
+				position: absolute;
+				top: 970px;
+				left: 150px;
+				width: 80px;
+				height: 80px;
+			}
+			.w40:hover{
+				border-radius: 50px 50px 50px 50px;
+				transition-duration: 1s;
+				position: absolute;
+				top: 970px;
+				left: 150px;
+				width: 110px;
+				height: 110px;
+			}
+			.w41{
+				position: absolute;
+				width: 1000px;
+				height: 1000px;
+			}
+			.w42{
+				position: absolute;
+				top: 980px;
+				left: 260px;
+			}
+			.w43{
+				position: absolute;
+				top: 1010px;
+				left: 260px;
+			}
+			.w44{
+				border-radius: 40px 40px 40px 40px;
+				position: absolute;
+				top: 1000px;
+				left: 400px;
+				}
+			.w45{
+				border-radius: 20px 20px 20px 20px;
+				position: absolute;
+				top: 1080px;
+				left: 150px;
+				width: 80px;
+				height: 80px;
+			}
+			.w45:hover{
+				border-radius: 50px 50px 50px 50px;
+				transition-duration: 1s;
+				position: absolute;
+				top: 1080px;
+				left: 150px;
+				width: 110px;
+				height: 110px;
+			}
+			.w46{
+				position: absolute;
+				top: 1070px;
+				left: 260px;
+			}
+			.w47{
+				position: absolute;
+				top: 1100px;
+				left: 260px;
+			}
+			.w48{
+				border-radius: 40px 40px 40px 40px;
+				position: absolute;
+				top: 1090px;
+				left: 400px;
+				}
+				.w49{
+					border-radius: 20px 20px 20px 20px;
+					position: absolute;
+					top: 970px;
+					left: 740px;
+					width: 80px;
+					height: 80px;
+					}
+					.w49:hover{
+						border-radius: 50px 50px 50px 50px;
+						transition-duration: 1s;
+						position: absolute;
+						top: 970px;
+						left: 740px;
+						width: 110px;
+						height: 110px;
+					}
+			.w50{
+				position: absolute;
+				top: 980px;
+				left: 850px;
+				}
+				.w51{
+					position: absolute;
+					top: 1010px;
+					left: 850px;
+				}
+				.w52{
+					border-radius: 40px 40px 40px 40px;
+					position: absolute;
+					top: 995px;
+					left: 1000px;
+				}
+				.w53{
+					border-radius: 20px 20px 20px 20px;
+					position: absolute;
+					top: 1080px;
+					left: 740px;
+					width: 80px;
+					height: 80px;
+				}
+				.w53:hover{
+					border-radius: 50px 50px 50px 50px;
+					transition-duration: 1s;
+					position: absolute;
+					top: 1080px;
+					left: 740px;
+					width: 110px;
+					height: 110px;
+				}
+				.w54{
+					position: absolute;
+					top: 1080px;
+					left: 850px;
+				}
+				.w55{
+					position: absolute;
+					top: 1110px;
+					left: 850px;
+				}
+				.W56{
+					border-radius: 40px 40px 40px 40px;
+					position: absolute;
+					top: 1095px;
+					left: 1000px;
+				}
+				.w57{
+					border-radius: 40px 40px 40px 40px;
+					position: absolute;
+					top: 1170px;
+					left: 120px;
+					width: 90%;
+				}
+		</style>
+	</head>
+	<body>
+		<div class="w35">
+			<p class="w13"><font face="楷体" size="6" color="#000000">安徽机电每日歌曲推荐:</font></p>
+			</div>
+		<a href="#"><img src="../img/美女2.jpg" width="20%"/ class="w16"></a>
+		<a href="#"><img src="../img/美女1.jpg" width="20%"/ class="w24"></a>
+		<a href="#"><img src="../img/美女3.jpg" width="20%"/ class="w25"></a>
+		<a href="#"><img src="../img/美女4.jpg" width="20%"/ class="w17"></a>
+		<p class="w19"><font face="楷体" size="5" color="#000000">抖音热歌</font></p>
+		<p class="w20"><font face="楷体" size="5" color="#000000">机电之声</font></p>
+		<p class="w21"><font face="楷体" size="5" color="#000000">校友点歌</font></p>
+		<p class="w22"><font face="楷体" size="5" color="#000000">每日推荐</font></p>
+		
+		
+		<div class="w36">
+			<p class="w23"><font face="楷体" size="6" color="#000000">值得红心的宝藏歌曲:</font></p>
+		</div>
+		<a href="#"><img src="../img/歌曲照片1.jpg" width="20%"/ class="w26"></a>
+		<a href="#"><img src="../img/歌曲照片2.jpg" width="20%"/ class="w27"></a>
+		<a href="#"><img src="../img/歌曲照片3.jpg" width="20%"/ class="w28"></a>
+		<a href="#"><img src="../img/歌曲照片4.jpg" width="20%"/ class="w29"></a>
+		<p class="w30"><font face="楷体" size="5" color="#000000">他说</font></p>
+		<p class="w31"><font face="楷体" size="5" color="#000000">WINTEB</font></p>
+		<p class="w32"><font face="楷体" size="5" color="#000000">七里香</font></p>
+		<p class="w33"><font face="楷体" size="5" color="#000000">MODERN</font></p>
+
+			<img src="../img/歌曲照片1.jpg" width="30%"/ class="w40">
+			<p class="w42"><font face="楷体" size="5" color="#000000">演唱:林俊杰</font></p>
+			<p class="w43"><font face="楷体" size="3" color="#000000">作词:林俊杰</font></p>
+			<audio controls="controls" loop="loop" class="w44">
+				<source src="img/obj_wo3DlMOGwrbDjj7DisKw_5456722253_8023_f10d_9919_6cc040705edc7fb6d1f3673a931a410c.mp3" type="audio/mp3"></source>
+			</audio>
+
+
+			<img src="../img/歌曲照片4.jpg" width="30%"/ class="w45">
+			<p class="w46"><font face="楷体" size="5" color="#000000">演唱:周杰伦</font></p>
+			<p class="w47"><font face="楷体" size="3" color="#000000">作词:周杰伦</font></p>
+			<audio controls="controls" loop="loop" class="w48">
+				<source src="img/M500000igXnh2az8Dz.mp3" type="audio/mp3"></source>
+			</audio>
+
+			<img src="../img/美女1.jpg" width="30%"/ class="w49">
+			<p class="w50"><font face="楷体" size="5" color="#000000">演唱:金桥</font></p>
+			<p class="w51"><font face="楷体" size="3" color="#000000">作词:金桥</font></p>
+			<audio controls="controls" loop="loop" class="w52">
+				<source src="../img/obj_wo3DlMOGwrbDjj7DisKw_5456722253_8023_f10d_9919_6cc040705edc7fb6d1f3673a931a410c.mp3" type="audio/mp3"></source>
+			</audio>
+
+
+			<img src="../img/歌曲照片3.jpg" width="30%"/ class="w53">
+			<p class="w54"><font face="楷体" size="5" color="#000000">演唱:FU</font></p>
+			<p class="w55"><font face="楷体" size="3" color="#000000">作词:FU</font></p>
+			<audio controls="controls" loop="loop" class="W56">
+				<source src="../img/2450409413.mp3" type="audio/mp3"></source>
+			</audio>
+			<img src="../img/机电照片.jpg"/ class="w57">
+			
+			
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<div class="w34">
+			<img src="../img/歌曲照片2.jpg" width="5%"/ class="w37">
+		</div>
+		<div class="w">
+			<img src="../img/校徽.jpg" width="3%"/ class="w1">
+			<p class="w2"><font face="楷体" size="6" color="aliceblue"></font></p>
+			<img src="../img/美女1.jpg" width="3%"/ class="w4">
+			<img src="../img/设置.jpg" width="3%"/ class="w5">
+			<p class="w2"><font face="楷体" color="aliceblue" size="6">安徽机电职业技术音乐社区</font></p>
+			<p class="w14"><font face="楷体" color="aliceblue" size="6">机电区</font></p>
+			<div class="box">
+				<p class="w12"><font face="楷体" size="3" color="#FFFFFF">请输入你需要的内容</font></p>
+			</div>
+		</div>
+		<div class="w3">
+			<p class="w6"><font face="楷体" size="6" color="#21e9ff">首页</font></p>
+			<p class="w7"><font face="楷体" size="6" color="aliceblue">推荐</font></p>
+			<p class="w8"><font face="楷体" size="6" color="aliceblue">收藏</font></p>
+			<p class="w9"><font face="楷体" size="6" color="aliceblue">本地</font></p>
+			<p class="w10"><font face="楷体" size="6" color="aliceblue">分类</font></p>
+			<p class="w11"><font face="楷体" size="6" color="aliceblue">设置</font></p>
+		</div>
+	</body>
+</html>
